@@ -22,7 +22,7 @@ h1 {
 .inputs {
   width: inherit;
   display: flex;
-  flex-direction:
+  flex-direction: column;
 }
 
 input {
@@ -36,4 +36,12 @@ input {
 
 .gobutton {
 padding: 10px 15px;
+}
+
+.resultSection {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
 }
